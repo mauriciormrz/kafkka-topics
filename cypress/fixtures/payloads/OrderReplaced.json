@@ -1,0 +1,28 @@
+{
+  "orderItems": [
+    {
+      "partNumber": "5178",
+      "quantity": 1,
+      "giftItem": false,
+      "donationItem": false,
+      "pvAssitItem": false
+    }
+  ],
+  "payments": [],
+  "originalOrderId": "169395007771097",
+  "originalYLOrderId": "197177829",
+  "replacementId": "169395013975427",
+  "referenceId": "OrderReplacedProcessed~169395007771097~169395013975427",
+  "shipping": {
+    "shippingMethodId": "5",
+    "recipient": "QA Test",
+    "address": {
+      "line1": "Main, 123 Baker St",
+      "line2": "22",
+      "city": "Coalinga",
+      "stateProvince": "CA",
+      "postalCode": "93210-1457",
+      "country": "US"
+    }
+  }
+}

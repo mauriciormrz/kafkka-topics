@@ -1,0 +1,48 @@
+{
+  "orderItems": [
+    {
+      "partNumber": "5203",
+      "quantity": 1,
+      "salesPriceAmount": 5.92,
+      "taxableAmount": 5.92,
+      "personalVolume": 4.5,
+      "discountedPriceAmountStr": "-4.50",
+      "donationItem": false,
+      "giftItem": false,
+      "pvAssitItem": false
+    }
+  ],
+  "shippingAmount": 0,
+  "shippingTax": 0,
+  "subTotal": 5.92,
+  "discounts": [
+    {
+      "amount": 1.42
+    }
+  ],
+  "discountsTotal": 1.42,
+  "salesTax": [
+    {
+      "amount": 0.53
+    }
+  ],
+  "salesTaxTotal": 0.53,
+  "total": 5.03,
+  "payments": [
+    {
+      "isoCurrencyCode": "USD",
+      "isoCountryCode": "US",
+      "amount": 5.03,
+      "referenceId": "REFID_STORECREDIT_4358064_TID_null",
+      "walletId": "289daa28-7038-4bb6-b3aa-8a4c9f8ea2ad",
+      "paymentMethodType": "CashCredit",
+      "isCashCredit": true,
+      "ylpaymentMethodId": ""
+    }
+  ],
+  "originalOrderId": "169385981916562",
+  "originalYLOrderId": 197159796,
+  "returnId": "169385994937456",
+  "referenceId": "OrderReturnProcessed~169385981916562~169385994937456",
+  "orderDateTime": "2023-09-04T20:39:09.356"
+}
