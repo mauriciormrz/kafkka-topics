@@ -4,9 +4,6 @@
   "description": "This project is meant to be a kind of template to start working with Cucumber and Cypress just cloning the project.",
   "main": "index.js",
   "scripts": {
-    "dashboard": "cypress run --record --key 502169c2-2ab6-4bcc-b6d2-9b537cfe96ae",
-    "dashboard_2": "npx cypress run --record --key 502169c2-2ab6-4bcc-b6d2-9b537cfe96ae",
-    "runner": "cypress open --e2e --browser electron",
     "clone:o": "node -r dotenv/config ./node_modules/.bin/cypress open --e2e --browser electron dotenv_config_path=./.clone.env",
     "clone:r": "NO_COLOR=1 node -r dotenv/config ./node_modules/.bin/cypress run --record --key 502169c2-2ab6-4bcc-b6d2-9b537cfe96ae --e2e --browser electron dotenv_config_path=./.clone.env",
     "ext5:o":  "node -r dotenv/config ./node_modules/.bin/cypress open dotenv_config_path=./.ext5.env --e2e --browser electron",

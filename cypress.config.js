@@ -82,11 +82,8 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents,
     specPattern: [
-      "cypress/e2e/features/storefront/*.feature",
-      "cypress/e2e/features/topics/L2S/*.featur",
-      "cypress/e2e/features/topics/S2L/*.feature",
-      "cypress/e2e/features/topics/legacy-skava/*.featur",
-      "cypress/e2e/features/topics/skava-legacy/*.featur",
+      "cypress/e2e/features/topics/legacy-skava/*.feature",
+      "cypress/e2e/features/topics/skava-legacy/*.feature",
     ],
     chromeWebSecurity: false,
     scrollBehavior: false,
